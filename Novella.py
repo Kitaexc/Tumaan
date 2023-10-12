@@ -5,7 +5,7 @@ from colorama import Fore, init
 init(autoreset=True)
 
 pygame.init()
-audio_file_path = "C:\\Users\\lenci\\OneDrive\\Рабочий стол\\Novella\\00218.mp3" #В папке есть файл со звуком, вставьте путь к файлу в данную строку.
+audio_file_path = "C:\\Users\\lenci\\OneDrive\\Рабочий стол\\Novella\\00218.mp3" #В папке есть файл со звуком, вставьте путь к файлу в данную строку, затем сохранить и наслождайтесь.
 pygame.mixer.music.load(audio_file_path)
 
 
@@ -251,6 +251,7 @@ text = "Что-то произошло? Напали бандиты?"
 animate_text(text)
 print (text_color + "....................................................")
 text = "От бесчисленных вопросов сверлит в висках."
+animate_text(text)
 print (text_color + "....................................................")
 print()
 
